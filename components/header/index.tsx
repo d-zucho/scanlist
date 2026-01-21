@@ -14,7 +14,7 @@ const Header = () => {
   console.log(pathname)
 
   return (
-    <header className='py-4 border-b border-primary'>
+    <header className='py-4 h-[80px] flex items-center'>
       <div className="container mx-auto px-2 md:px-4 lg:px-6">
         <div className="flex items-center justify-between">
           <div className='flex items-center gap-4'>
@@ -27,13 +27,13 @@ const Header = () => {
             />
             <span className='text-xl font-bold'>ScanList</span>
             </Link>
-              <nav className='flex items-center gap-2'>
+              <nav className='hidden md:flex items-center gap-2'>
                 {
                   NAV_ITEMS.map((item) => (
                     <Link
                       key={item.name}
                       href={item.href}
-                      className={`${pathname === item.href ? 'text-black' : 'text-black/60'} hover:text-black transition-colors duration-200 ease-in-out`}
+                      className={`${pathname === item.href ? 'text-black' : 'text-my-nav-text'} hover:text-black transition-colors duration-200 ease-in-out`}
                     >
                       {item.name}
                     </Link>
@@ -43,15 +43,19 @@ const Header = () => {
                 </div>
               <div className='flex items-center gap-2'>
                 
-                  <Link
-                    href={'/login'}
-                    className={buttonVariants({ variant: 'default', className: 'px-5 py-2' })}
-                  >Login</Link>
-                  <Link
-                    href={'/register'}
-                    className={buttonVariants({ variant: 'outline', className: 'px-5 py-2' })}
-                  >Register</Link>
-                <MobileNav />
+                  <div className='hidden md:flex items-center gap-2'>
+                    <Link
+                      href={'/login'}
+                      className={buttonVariants({ variant: 'default', className: 'px-5 py-2' })}
+                    >Login</Link>
+                    <Link
+                      href={'/register'}
+                      className={buttonVariants({ variant: 'outline', className: 'px-5 py-2' })}
+                    >Register</Link>
+                  </div>
+                <div className='md:hidden'>
+                  <MobileNav />
+                </div>
               </div>
         </div>
       </div>
