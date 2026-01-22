@@ -1,4 +1,5 @@
-import { TNavItem } from '@/lib/types';
+import { THowItWorksItem, TNavItem } from '@/lib/types';
+import { Barcode, ListChecks, ShoppingCart } from 'lucide-react';
 
 export const NAV_ITEMS: TNavItem[] = [
   {
@@ -41,3 +42,20 @@ export const HERO_STATS = [
   }
 ]
   
+export const HOW_IT_WORKS_ITEMS: THowItWorksItem[] = [
+  {
+    title: 'Scan Items',
+    description: "Use your phone camera to scan barcodes of items running low in your pantry or fridge.",
+    icon: Barcode,
+  },
+  {
+    title: 'Add Items',
+    description: 'Add items to your grocery lists with details, prices, and quantity.',
+    icon: ListChecks,
+  },
+  {
+    title: 'Shop Efficiently',
+    description: 'Check off items as you shop. Get organized and save time and money.',
+    icon: ShoppingCart,
+  },
+]
