@@ -25,4 +25,19 @@ export const NAV_AUTH_ITEMS: TNavItem[] = [
     href: '/register',
   },
 ]
+
+export const HERO_STATS = [
+  {
+    stat: '50K+',
+    description: 'Active Users',
+  },
+  {
+    stat: '2M+',
+    description: 'Items Scanned',
+  },
+  {
+    stat: '4.9',
+    description: 'App Rating',
+  }
+]
   

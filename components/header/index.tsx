@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { Button, buttonVariants } from '../ui/button'
 import MobileNav from './MobileNav'
+import MaxWidthWrapper from '../MaxWidthWrapper'
 
 
 
@@ -15,7 +16,7 @@ const Header = () => {
 
   return (
     <header className='py-4 h-[80px] flex items-center'>
-      <div className="container mx-auto px-2 md:px-4 lg:px-6">
+      <MaxWidthWrapper>
         <div className="flex items-center justify-between">
           <div className='flex items-center gap-4'>
           <Link href={'/'} className='flex items-center gap-2'>
@@ -58,7 +59,7 @@ const Header = () => {
                 </div>
               </div>
         </div>
-      </div>
+      </MaxWidthWrapper>
     </header>
   )
 }
