@@ -82,3 +82,22 @@ export const WHY_US_STATS: TWhyUsStat[] = [
     info: 'AI learns your habits and suggests items you might need.'
   }
 ]
+
+export const HOME_STAT_BANNER = [
+  {
+    stat: '98%',
+    info: 'Accuracy Rate'
+  },
+  {
+    stat: '15 min',
+    info: 'Avg. Time Saved'
+  },
+  {
+    stat: '$200',
+    info: 'Avg. Monthly Savings'
+  },
+  {
+    stat: '10K+',
+    info: 'Supported Products'
+  }
+]

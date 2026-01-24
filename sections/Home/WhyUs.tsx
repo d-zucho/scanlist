@@ -26,7 +26,7 @@ const WhyUs = () => {
                 WHY_US_STATS.map((stat, index) => {
                   const Icon = stat.icon
                   return (
-                    <div key={index} className='flex flex-row sm:flex-col md:flex-row md:items-center gap-5'>
+                    <div key={index} className='flex flex-row items-center gap-5'>
                       <div className='w-fit p-2 bg-linear-to-br from-emerald-200 to-emerald-300 rounded-md shadow-[inset_-1px_-2px_4px_0px_rgba(0,0,0,0.2)] border-black/10 border'>
                         <Icon className='text-emerald-500' />
                       </div>

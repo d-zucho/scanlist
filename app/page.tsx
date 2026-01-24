@@ -1,3 +1,4 @@
+import HomeStatBanner from '@/components/HomeStatBanner';
 import Hero from '@/sections/Home/Hero';
 import HowItWorks from '@/sections/Home/HowItWorks';
 import WhyUs from '@/sections/Home/WhyUs';
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero />
       <HowItWorks />
       <WhyUs />
+      <HomeStatBanner />
     </div>
   );
 }
