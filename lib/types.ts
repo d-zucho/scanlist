@@ -17,3 +17,10 @@ export type TWhyUsStat = {
   title: string;
   info: string;
 }
+
+export type TTestimonial = {
+  name: string;
+  title: string;
+  description: string;
+  image: string;
+}

@@ -1,4 +1,4 @@
-import { THowItWorksItem, TNavItem, TWhyUsStat } from '@/lib/types';
+import { THowItWorksItem, TNavItem, TTestimonial, TWhyUsStat } from '@/lib/types';
 import { Barcode, Brain, Clock, ListChecks, ShoppingCart, Users, Wallet2 } from 'lucide-react';
 
 export const NAV_ITEMS: TNavItem[] = [
@@ -100,4 +100,25 @@ export const HOME_STAT_BANNER = [
     stat: '10K+',
     info: 'Supported Products'
   }
+]
+
+export const TESTIMONIALS: TTestimonial[] = [
+  {
+    name: 'Sarah Johnson',
+    title: 'Busy Mom of 3',
+    description: 'This app has completely changed how I shop. No more forgotten items or impulse buys. Highly recommend!',
+    image: '/images/Sarah.png'
+  },
+  {
+    name: 'Michael Chen',
+    title: 'Software Engineer',
+    description: "The barcode scanning is incredibly fast and accurate. I've saved so much time and money since using SmartList.",
+    image: '/images/Michael.png'
+  },
+  {
+    name: 'Emily Rodriguez',
+    title: 'College Student',
+    description: 'I love how easy it is. The app has taken a lot of the stress out of grocery shopping.',
+    image: '/images/Emily.png'
+  },
 ]
