@@ -6,7 +6,12 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-dark-bg1: var(--my-dark-bg1);
+  --color-dark-bg2: var(--my-dark-bg2);
   --color-title: var(--my-title);
+  --color-white-foreground: var(--my-white-foreground);
+  --color-white-foreground-accent: var(--my-white-foreground-accent);
+  
   --color-testimonial-text: var(--my-testimonial-text);
   --color-testimonial-title: var(--my-testimonial-title);
   --font-sans: var(--font-geist-sans);
@@ -63,6 +68,10 @@
   --my-nav-text: #6B7280;
   --my-text: #4B5563;
   --my-title: #111827;
+  --my-white-foreground: #D1D5DB;
+  --my-white-foreground-accent: #9CA3AF;
+  --my-dark-bg1: #111827;
+  --my-dark-bg2: #1F2937;
   --my-testimonial-title: #6B7280;
   --my-testimonial-text: #374151;
   --primary-foreground: oklch(0.985 0 0);
