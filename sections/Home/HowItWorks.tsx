@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const HowItWorks = () => {
   return (
-    <section className="py-20">
+    <section className="my-32">
       <MaxWidthWrapper>
         <div>
           <div className='text-center mb-10'>
@@ -22,7 +22,7 @@ const HowItWorks = () => {
                   <div className='flex flex-col items-center  border w-fit max-w-xs p-5 rounded-xl bg-linear-to-br from-primary/80 to-emerald-600 mb-4'>
                   <Icon className='text-white' />
                 </div>
-                <h3 className='text-xl font-semibold text-center mb-2'>{item.title}</h3>
+                <h3 className='text-2xl font-semibold text-center mb-2'>{item.title}</h3>
                 <p className='text-center text-my-text'>{item.description}</p>
               </div>)
 })}

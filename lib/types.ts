@@ -11,3 +11,9 @@ export type THowItWorksItem = {
     icon: LucideIcon;
     
 };
+
+export type TWhyUsStat = {
+  icon: LucideIcon;
+  title: string;
+  info: string;
+}

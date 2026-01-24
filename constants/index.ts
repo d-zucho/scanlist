@@ -1,5 +1,5 @@
-import { THowItWorksItem, TNavItem } from '@/lib/types';
-import { Barcode, ListChecks, ShoppingCart } from 'lucide-react';
+import { THowItWorksItem, TNavItem, TWhyUsStat } from '@/lib/types';
+import { Barcode, Brain, Clock, ListChecks, ShoppingCart, Users, Wallet2 } from 'lucide-react';
 
 export const NAV_ITEMS: TNavItem[] = [
   {
@@ -58,4 +58,27 @@ export const HOW_IT_WORKS_ITEMS: THowItWorksItem[] = [
     description: 'Check off items as you shop. Get organized and save time and money.',
     icon: ShoppingCart,
   },
+]
+
+export const WHY_US_STATS: TWhyUsStat[] = [
+  {
+    icon: Clock,
+    title: 'Save Time',
+    info: 'No more handwritten lists or forgotten items. Scan in seconds.'
+  },
+  {
+    icon: Wallet2,
+    title: 'Save Money',
+    info: 'Compare prices across stores and get the best deals automatically.'
+  },
+  {
+    icon: Users,
+    title: 'Share Lists',
+    info: 'Collaborate with family members in real-time on shared grocery lists.'
+  }, 
+  {
+    icon: Brain,
+    title: 'Smart Suggestions',
+    info: 'AI learns your habits and suggests items you might need.'
+  }
 ]
