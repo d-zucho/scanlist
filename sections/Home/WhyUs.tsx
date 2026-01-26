@@ -20,8 +20,8 @@ const WhyUs = () => {
 
           {/* right -- text content */}
           <div className='flex-1'>
-            <h2 className='text-3xl md:text-4xl font-bold mb-4'>Why Choose SmartList?</h2>
-            <div className='space-y-5'>
+            <h2 className='text-3xl md:text-4xl font-bold mb-3 text-center md:text-left'>Why Choose SmartList?</h2>
+            <div className='space-y-5 mt-5 md:mt-0 px-5 md:px-0'>
               {
                 WHY_US_STATS.map((stat, index) => {
                   const Icon = stat.icon

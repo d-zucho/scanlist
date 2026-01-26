@@ -12,7 +12,6 @@ import MaxWidthWrapper from '../MaxWidthWrapper'
 const Header = () => {
   const pathname = usePathname()
 
-  console.log(pathname)
 
   return (
     <header className='py-4 h-[80px] flex items-center'>

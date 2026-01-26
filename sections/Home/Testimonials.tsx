@@ -7,7 +7,7 @@ const Testimonials = () => {
     <section className='my-32'>
       <MaxWidthWrapper>
         <div className='text-center mb-10'>
-          <h2 className='text-3xl md:text-4xl font-bold'>What Our Users Say</h2>
+          <h2 className='text-3xl md:text-4xl font-bold mb-3'>What Our Users Say</h2>
           <p className='text-my-text'>Join thousands of happy shoppers</p>
         </div>
 

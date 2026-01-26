@@ -9,7 +9,7 @@ const HowItWorks = () => {
       <MaxWidthWrapper>
         <div>
           <div className='text-center mb-10'>
-            <h2 className='text-3xl md:text-4xl font-bold'>How It Works</h2>
+            <h2 className='text-3xl md:text-4xl font-bold mb-3'>How It Works</h2>
             <p className='text-my-text'>Three simple steps to smarter shopping and saving money.</p>
           </div>
 

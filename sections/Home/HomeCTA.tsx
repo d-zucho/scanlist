@@ -8,7 +8,7 @@ const HomeCTA = () => {
       <MaxWidthWrapper>
         <div>
           <div className='text-center mb-10'>
-            <h2 className='text-3xl md:text-4xl font-bold text-white'>Ready to Shop Smarter?</h2>
+            <h2 className='text-3xl md:text-4xl font-bold text-white mb-3'>Ready to Shop Smarter?</h2>
             <p className='text-white-foreground'>Join our community of happy shoppers and start saving money today.</p>
           </div>
           {/* app store buttons */}
